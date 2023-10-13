@@ -15,7 +15,7 @@ body{
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  background-attachment: fixed;
-  background-image: url("/images/bg1.jpg");
+  background-image: url("images/bg1.jpg");
   height: 100%;
   
 }
@@ -31,23 +31,22 @@ body{
      
    }
 .image1 {
-	  background-image: url("/images/bg1.jpg");
+	  background-image: url("images/bg1.jpg");
 	}
 .image2 {
-	  background-image: url("/images/bg2.jpg");
+	  background-image: url("images/bg2.jpg");
 	}
 
 .mainContainer {
   width:100%;
   padding-top:100%;
-  align:center;
+  
   margin:0px;
   /* background-color:rgb(255,0,0); */
 }
 .textBlock{
 font-family:Arial, Helvetica, sans-serif;
 font-size:20px;
-align:center;
 background-color:#e6e6e6;
 padding:20px;
 margin:20px;
@@ -68,4 +67,7 @@ border-radius: 5px;
   margin:auto;
   margin-top:40px;
   margin-bottom:40px;
+}
+.whiteText{
+  color:#e6e6e6;
 }
